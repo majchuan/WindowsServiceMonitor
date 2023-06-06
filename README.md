@@ -4,7 +4,7 @@ This application does not use any third party schedule job. it only use backgrou
 This application can be run on other platform too, only need minor changes. \
 dotnet publish --output "file directory" \
 sc.exe create "servicename" bingpath="exe file location" \
-sc.exe start "servicename" \
-sc.exe stop "servicename" \
+sc.exe start "servicename"\
+sc.exe stop "servicename"\
 
-Remove-EventLog -LogName "logname" \
+Remove-EventLog -LogName "logname"\
