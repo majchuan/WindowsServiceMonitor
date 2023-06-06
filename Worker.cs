@@ -28,7 +28,7 @@ public class WindowsBackgroundService : BackgroundService
                 {
                     //Obtain service name from config 
                     IList<string> serviceNames = _configuration.GetSection("OhfsService:ServiceNames").Get<List<string>>();
-                    _monitorOfhsService.CheckServices(serviceNames);
+                    await _monitorOfhsService.CheckServices(serviceNames);
 
                     _logger.LogInformation("Worker running at: {time} for service {service name}", DateTimeOffset.Now,serviceNames);
 

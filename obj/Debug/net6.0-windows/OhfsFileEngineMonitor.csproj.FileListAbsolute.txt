@@ -21,6 +21,7 @@ C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debu
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Hosting.WindowsServices.dll
+C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Http.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Configuration.dll
@@ -31,6 +32,10 @@ C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debu
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\SendGrid.dll
+C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\SendGrid.Extensions.DependencyInjection.dll
+C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\StarkbankEcdsa.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\System.Diagnostics.EventLog.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\System.ServiceProcess.ServiceController.dll
 C:\Users\mama3\source\repos\ohfsFileEngineMonitor\OhfsFileEngineMonitor\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
