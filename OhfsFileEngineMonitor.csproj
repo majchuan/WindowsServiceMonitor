@@ -7,7 +7,7 @@
     <RootNamespace>OhfsFileEngineMonitor</RootNamespace>
     <UserSecretsId>dotnet-OhfsFileEngineMonitor-977656c0-77b2-40f6-9839-5a4a2f62042f</UserSecretsId>
     <OutputType>exe</OutputType>
-   <!-- <PublishSingleFile Condition="'$(Configuration)' == 'Release'">true</PublishSingleFile>-->
+    <PublishSingleFile>true</PublishSingleFile>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
