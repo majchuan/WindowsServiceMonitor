@@ -5,7 +5,7 @@ using Microsoft.Extensions.Logging.EventLog;
 IHostBuilder builder = Host.CreateDefaultBuilder(args)
     .UseWindowsService(options =>{
 
-        options.ServiceName = "Monitor OHFS File Engine Service";
+        options.ServiceName = "Monitor_Service";
         
     }).ConfigureServices((context, services) =>{
 
