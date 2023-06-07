@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hoA19YtemPdxUH39+1rB8WCCZ6k3+TpeVCmQ9Dww4XH2btcqSyuxUGJIMe+Diq3T5+HXsqdASk1obnxAD5i2hQ==",
+  "dgSpecHash": "/GTPawNI/l3nvd3GlGDZ6rBsdBjbZ0b+FozA7SxuYHoLAOS26P6IKwYaxl51lBU5T11acCXXhPHxIRo8jvbDnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\mama3\\source\\repos\\ohfsFileEngineMonitor\\OhfsFileEngineMonitor\\OhfsFileEngineMonitor.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,10 @@
     "C:\\Users\\mama3\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\mama3\\.nuget\\packages\\system.serviceprocess.servicecontroller\\6.0.0\\system.serviceprocess.servicecontroller.6.0.0.nupkg.sha512",
     "C:\\Users\\mama3\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\mama3\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\mama3\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\mama3\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.16\\microsoft.netcore.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\mama3\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.16\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.16.nupkg.sha512",
+    "C:\\Users\\mama3\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.16\\microsoft.aspnetcore.app.runtime.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

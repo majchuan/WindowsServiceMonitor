@@ -8,7 +8,7 @@ using SendGrid.Helpers.Mail;
 IHostBuilder builder = Host.CreateDefaultBuilder(args)
     .UseWindowsService(options =>{
 
-        options.ServiceName = "Monitor_Service";
+        options.ServiceName = "Ohfs_Monitor_Service";
         
     }).ConfigureServices((context, services) =>{
 

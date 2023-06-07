@@ -18,10 +18,10 @@ public sealed class MonitorOhfsFileEngineService
     public async Task<bool> ServiceIsRunning(string ServiceName)
     {
         ServiceController sc = new ServiceController(ServiceName);
-        if(sc.Status == ServiceControllerStatus.Running){
+        if(sc.Status == ServiceControllerStatus.Running || sc.Status == ServiceControllerStatus.StartPending){
             return true;
         }else{
-            await _es.SendEmail(ServiceName, "This service is down now.");
+            await _es.SendEmail(ServiceName, "This service "+ServiceName+" is down now.");
             return false;
         }
     }
@@ -34,14 +34,19 @@ public sealed class MonitorOhfsFileEngineService
                 try{
                     ServiceController sc = new ServiceController(serviceName);
                     sc.Start();
+                    var counter = 0 ;
 
-                    while(sc.Status == ServiceControllerStatus.Stopped){
+                    while(sc.Status == ServiceControllerStatus.Stopped && counter < 3){
                         Thread.Sleep(1000);
                         sc.Refresh();
+                        counter++;
                     }
-
-                    await _es.SendEmail(serviceName , "This service is up now.");
-
+                    if(sc.Status == ServiceControllerStatus.StartPending  || sc.Status == ServiceControllerStatus.Running){
+                        await _es.SendEmail(serviceName,"This service "+serviceName+" is up now.");
+                    }else{
+                        await _es.SendEmail(serviceName, "This service "+serviceName+" is tried restart three time, but it failed. please check the service asap."+
+                        "curr status"+ sc.Status);
+                    }
                 }catch(Exception ex){
                      throw ex;
                 }
